@@ -4,7 +4,7 @@ LDFLAGS = `sdl2-config --libs`
 
 SRC = $(wildcard src/*.c)
 OBJ = $(SRC:.c=.o)
-TARGET = orion_public_transit
+TARGET = opt_game
 
 all: $(TARGET)
 
