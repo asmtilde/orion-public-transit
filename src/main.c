@@ -12,7 +12,24 @@ Color colors[]= {
 
 void game_tick(App *app)
 {
-    // happy filled function with rainbows, sparkles, giggles, laughter, and smiiles
+    SDL_Event event;
+    while (SDL_PollEvent(&event))
+    {
+        switch (event.type)
+        {
+            case SDL_QUIT:
+                app->running = 0;
+                break;
+            case SDL_KEYDOWN:
+                if (event.key.keysym.sym == SDLK_ESCAPE)
+                {
+                    app->running = 0;
+                }
+                break;
+            default:
+                break;
+        }
+    }
 }
 
 void render(App *app)
@@ -25,6 +42,9 @@ void render(App *app)
     SDL_RenderPresent(app->renderer);
 }
 
+/*
+    Main function to initialize the application, handle events, update game state, and render frames.
+*/
 int main(int argc, char *argv[])
 {
     App *app = app_create();
@@ -32,7 +52,6 @@ int main(int argc, char *argv[])
 
     while (app->running)
     {
-        handle_events(app);
         game_tick(app);
         render(app);
         SDL_Delay(MS_PER_TICK);

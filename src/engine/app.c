@@ -51,15 +51,3 @@ void app_destroy(App *app)
     if (app->window) SDL_DestroyWindow(app->window);
     SDL_Quit();
 }
-
-void handle_events(App *app)
-{
-    SDL_Event event;
-    while (SDL_PollEvent(&event))
-    {
-        if (event.type == SDL_QUIT)
-        {
-            app->running = 0;
-        }
-    }
-}
