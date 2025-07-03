@@ -148,5 +148,15 @@ void texture_unload(SDL_Texture* texture);
 void render_clear(App* app);
 void render_set_palette(App* app, const Palette* palette);
 
+// Audio Functions
+int audio_init();
+void audio_quit();
+void audio_play_sound(const char* path);
+void audio_set_volume(int volume);
+
+// Utility Functions
+void log_error(const char* message);
+void log_info(const char* message);
+void log_debug(const char* message);
 
 #endif
