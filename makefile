@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -O2 \
 	`sdl2-config --cflags` \
-	`pkg-config --cflags SDL2_image SDL2_ttf`
+	`pkg-config --cflags SDL2_image SDL2_ttf jansson`
 LDFLAGS = `sdl2-config --libs` \
-	`pkg-config --libs SDL2_image SDL2_ttf`
+	`pkg-config --libs SDL2_image SDL2_ttf jansson`
 
 SRC := $(shell find src -name '*.c')
 OBJ := $(SRC:.c=.o)
