@@ -1,0 +1,8 @@
+# dialogue.yaml
+# oh god this is a mess
+# good luck
+
+debug:
+  hello_world:
+    text: "Hello, World!"
+    icon: "debug_placeholder"

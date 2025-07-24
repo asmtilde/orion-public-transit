@@ -1,6 +1,7 @@
 #include "game.h"
 #include "graphics.h"
 #include "audio.h"
+#include "yaml.h"
 #include <SDL2/SDL.h>
 
 int main(int argc, char* argv[]) {
@@ -8,9 +9,13 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // TEMP: Load a test sprite (32x32 PNG in assets/sprites/player.png)
-    SDL_Texture* test_sprite = graphics_load_texture("assets/img/bob.png");
-    audio_play_music("assets/ost/pheonix.mp3", -1);
+    load_assets_yaml("assets/yml/assets.yaml");
+
+    int playerx = 100;
+    int playery = 100;
+
+    SDL_Texture* test_sprite = graphics_load_texture(search_assets(sprite_assets, "bob"));
+    audio_play_music(search_assets(music_assets, "pheonix"), -1);
 
     SDL_Event e;
     int running = 1;
@@ -18,11 +23,31 @@ int main(int argc, char* argv[]) {
         while (SDL_PollEvent(&e)) {
             if (e.type == SDL_QUIT) {
                 running = 0;
+            } else if (e.type == SDL_KEYDOWN) {
+                switch (e.key.keysym.sym) {
+                    case SDLK_ESCAPE:
+                        running = 0;
+                        break;
+                    case SDLK_LEFT:
+                        playerx -= 5;
+                        break;
+                    case SDLK_RIGHT:
+                        playerx += 5;
+                        break;
+                    case SDLK_UP:
+                        playery -= 5;
+                        break;
+                    case SDLK_DOWN:
+                        playery += 5;
+                        break;
+                }
+            } else if (e.type == SDL_WINDOWEVENT && e.window.event == SDL_WINDOWEVENT_CLOSE) {
+                running = 0;
             }
         }
         graphics_clear();
         if (test_sprite) {
-            graphics_draw_texture(test_sprite, 100, 100, 32, 64);
+            graphics_draw_texture(test_sprite, playerx, playery, 32, 64);
         }
         graphics_present();
         SDL_Delay(16);

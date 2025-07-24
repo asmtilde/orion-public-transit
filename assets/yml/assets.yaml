@@ -1,0 +1,10 @@
+# assets.yaml for opt
+music:
+  pheonix: "assets/music/pheonix.mp3"
+  pheonix_title: "assets/music/pheonix_title.mp3"
+  pheonix_rain: "assets/music/pheonix_rain.mp3"
+
+sprites:
+  placeholder: "assets/images/placeholder.png"
+  missing_asset: "assets/images/missing_asset.png"
+  bob: "assets/images/bob.png"

@@ -9,13 +9,6 @@ Welcome to **Orion Public Transit**, a unique narrative-driven game crafted with
 - **Meaningful Choices**: Your decisions influence relationships, storylines, and the fate of the city itself.
 - **Immersive Atmosphere**: Explore beautifully crafted environments, from bustling streets to secret underground stations.
 
-## Some Information
-
-- **Game Engine**: Orion.cpp [ NOT RELEASED (*YET*) ]
-- **Website**: [asmtil.de/orion](https://asmtil.de/orion)
-- **Discord**: [Join the Discord](https://discord.gg/)
-- **GitHub**: [GitHub Repository](https://github.com/asmtilde/opt)
-
 Orion Public Transit follows [ YOUR NAME ], a young adult recently released from a mental health facility. As you begin anew in a vibrant city, you discover an extraordinary gift—the ability to see and communicate with supernatural entities. Step into [ YOUR NAME ]'s shoes, forge new connections, unravel hidden secrets, and uncover the true nature of **ORION PUBLIC TRANSIT**.
 
 *Are you ready to board the transit and change your world?*

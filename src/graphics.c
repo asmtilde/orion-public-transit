@@ -39,8 +39,8 @@ void graphics_quit() {
 SDL_Texture* graphics_load_texture(const char* filepath) {
     SDL_Surface* surface = IMG_Load(filepath);
     if (!surface) {
-        printf("Failed to load image: %s\n", filepath);
-        return NULL;
+        fprintf(stderr, "Failed to load texture: %s\n", IMG_GetError());
+        surface = IMG_Load("assets/images/missing_asset.png");
     }
     SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);
     SDL_FreeSurface(surface);
