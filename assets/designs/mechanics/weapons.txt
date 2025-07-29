@@ -1,0 +1,12 @@
+Orion Public Transit Weapon Design
+------------------------------------------------
+
+Alright, weapons in opt are designed to be very versatile and unique.
+Each party member can equip their specific line of wepaons, and each weapon can be fused with others to create new effects.
+
+Weapon Types:
+1. **Swords** - Aleph [ Main Character ]
+2. **Katanas** - Eric Silverline
+3. **Guns** - Wilkox "Rex" Quinn
+4. **Bows** - Zendaya Naomi
+5. **Halberds** - Jax

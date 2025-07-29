@@ -3,6 +3,7 @@
 #include <SDL2/SDL.h>
 #include <stdbool.h>
 #include "audio.h"
+#include "script.h"
 
 static bool running = true;
 
