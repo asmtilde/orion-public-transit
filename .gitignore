@@ -1,4 +1,7 @@
 opt_game
+build
+dist
+bin
 
 # vscode files
 .vscode

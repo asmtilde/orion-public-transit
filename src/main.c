@@ -3,6 +3,7 @@
 #include "audio.h"
 #include "yaml.h"
 #include <SDL2/SDL.h>
+#include "script.h"
 
 int main(int argc, char* argv[]) {
     if (!game_init("Orion Public Transit", 1280, 960)) {
@@ -10,6 +11,8 @@ int main(int argc, char* argv[]) {
     }
 
     load_assets_yaml("assets/yml/assets.yaml");
+
+    read_script("assets/dat/init.script");
 
     int playerx = 100;
     int playery = 100;
