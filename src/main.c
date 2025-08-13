@@ -14,6 +14,9 @@ int main(int argc, char* argv[]) {
 
     read_script("assets/dat/init.script");
 
+    int current_scene = 0;
+
+
     int playerx = 100;
     int playery = 100;
 

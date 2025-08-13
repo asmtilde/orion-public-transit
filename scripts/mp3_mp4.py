@@ -19,7 +19,7 @@ def convert_mp4_to_mp3(directory):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python mp4_to_mp3_ffmpeg.py <directory>")
+        print("Usage: <directory>")
         sys.exit(1)
     directory = sys.argv[1]
     if not os.path.isdir(directory):

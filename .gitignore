@@ -3,6 +3,8 @@ build
 dist
 bin
 
+*.wav
+
 # vscode files
 .vscode
 
