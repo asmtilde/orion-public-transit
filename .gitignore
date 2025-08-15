@@ -3,10 +3,9 @@ build
 dist
 bin
 
-*.wav
+.vscode/
 
-# vscode files
-.vscode
+*.wav
 
 # Prerequisites
 *.d

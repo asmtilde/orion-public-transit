@@ -1,8 +1,23 @@
 # dialogue.yaml
-# oh god this is a mess
-# good luck
+# holds all dialogue in the game
+# crazy file size
 
-debug:
-  hello_world:
-    text: "Hello, World!"
-    icon: "debug_placeholder"
+# dice rolling, randomly selected lines with {result} as the result of the die
+roll_dice:
+  - "The die spins, finally settling on a {result}."
+  - "You roll a die, and it lands on {result}!"
+  - "The die just seems to fall out of your pocket, showing a {result}."
+  - "...and the die reveals a {result}!"
+  - "With a outstretched hand, you roll the die and it shows {result}."
+  - "Bless your stars! The die lands on a {result}."
+  - "You give the die a good roll, and it comes up {result}."
+  - "The dice clatters on the table, revealing a {result}.
+  - "You drop the die, and it shows a {result}."
+  - "After a tense moment, the die settles on {result}."
+  - "The die spins wildly before coming to rest on {result}."
+  - "At this point, just gamble. Die lands on {result}."
+  - "You roll the die with a flourish, and it shows {result}."
+  - "You flick the die across the table, and it lands on {result}."
+  - "With a hopeful heart, you roll the die and it reveals {result}."
+  - "You roll the die like a pro, and it lands on {result}."
+  - "You don't remember rolling the die, but it shows {result}."

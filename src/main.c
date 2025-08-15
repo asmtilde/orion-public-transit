@@ -5,10 +5,28 @@
 #include <SDL2/SDL.h>
 #include "script.h"
 
+typedef struct {
+    int x;
+    int y;
+    int w;
+    int h;
+    int speed;
+    int maxSpeed;
+    int vel_x;
+    int vel_y;
+} Player;
+
+void player_controller(char input)
+{
+}
+
 int main(int argc, char* argv[]) {
     if (!game_init("Orion Public Transit", 1280, 960)) {
         return 1;
     }
+
+    bool is_debug_mode = true;
+    int game_state = 0;
 
     load_assets_yaml("assets/yml/assets.yaml");
 
@@ -16,9 +34,14 @@ int main(int argc, char* argv[]) {
 
     int current_scene = 0;
 
-
-    int playerx = 100;
-    int playery = 100;
+    Player player = {
+        .x = 0,
+        .y = 0,
+        .w = 32,
+        .h = 64,
+        .speed = 16,
+        .maxSpeed = 24
+    };
 
     SDL_Texture* test_sprite = graphics_load_texture(search_assets(sprite_assets, "bob"));
     audio_play_music(search_assets(music_assets, "pheonix"), -1);
@@ -34,26 +57,27 @@ int main(int argc, char* argv[]) {
                     case SDLK_ESCAPE:
                         running = 0;
                         break;
-                    case SDLK_LEFT:
-                        playerx -= 5;
-                        break;
-                    case SDLK_RIGHT:
-                        playerx += 5;
-                        break;
                     case SDLK_UP:
-                        playery -= 5;
+                        move_player(&player, 0, -1);
                         break;
                     case SDLK_DOWN:
-                        playery += 5;
+                        move_player(&player, 0, 1);
+                        break;
+                    case SDLK_LEFT:
+                        move_player(&player, -1, 0);
+                        break;
+                    case SDLK_RIGHT:
+                        move_player(&player, 1, 0);
                         break;
                 }
             } else if (e.type == SDL_WINDOWEVENT && e.window.event == SDL_WINDOWEVENT_CLOSE) {
                 running = 0;
             }
         }
+
         graphics_clear();
         if (test_sprite) {
-            graphics_draw_texture(test_sprite, playerx, playery, 32, 64);
+            graphics_draw_texture(test_sprite, player.x, player.y, player.w, player.h);
         }
         graphics_present();
         SDL_Delay(16);

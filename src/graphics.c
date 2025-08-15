@@ -51,3 +51,17 @@ void graphics_draw_texture(SDL_Texture* texture, int x, int y, int w, int h) {
     SDL_Rect dst = { x, y, w, h };
     SDL_RenderCopy(renderer, texture, NULL, &dst);
 }
+
+void graphics_draw_color(int x, int y, int w, int h, Uint8 r, Uint8 g, Uint8 b, Uint8 a) {
+    SDL_SetRenderDrawColor(renderer, r, g, b, a);
+    SDL_Rect rect = { x, y, w, h };
+    SDL_RenderFillRect(renderer, &rect);
+}
+
+void graphics_draw_background(const char* filepath) {
+    SDL_Texture* texture = graphics_load_texture(filepath);
+    if (texture) {
+        SDL_RenderCopy(renderer, texture, NULL, NULL);
+        SDL_DestroyTexture(texture);
+    }
+}

@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <ctype.h>
+#include <math.h>
 
 // Helper: trim leading whitespace
 static char* ltrim(char* s) {
