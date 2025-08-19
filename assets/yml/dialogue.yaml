@@ -21,3 +21,29 @@ roll_dice:
   - "With a hopeful heart, you roll the die and it reveals {result}."
   - "You roll the die like a pro, and it lands on {result}."
   - "You don't remember rolling the die, but it shows {result}."
+
+save_game:
+  area_dangerous:
+    - "You feel a chill run down your spine. It fills you with dread."
+    - "As you looka round, you feel a sense of unease. Something is not right here."
+    - "You feel a sense of foreboding. This place is dangerous."
+    - "You sense danger lurking in the shadows. Proceed with caution."
+    - "You feel a dark presence nearby. It's best to leave this place."
+  area_safe:
+    - "You feel a sense of calm wash over you. This place is safe."
+    - "You feel at ease here. It's a safe place to rest."
+    - "You sense no danger here. It's a good place to save your progress."
+    - "You feel secure in this area. It's safe to take a break."
+    - "This place feels peaceful. You can save your game here."
+  area_unknown:
+    - "You feel a sense of uncertainty. This place is unfamiliar."
+    - "You sense something strange about this area. It's hard to tell if it's safe."
+    - "You feel a mix of curiosity and caution. This area is unknown."
+    - "You sense a mystery here. It's hard to say if it's safe or dangerous."
+    - "You feel a sense of adventure. This area is unexplored."
+  area_no_save:
+    - "You feel a sense of urgency. There's no time to save your game here."
+    - "You sense danger nearby. It's not safe to save your progress."
+    - "You feel a sense of dread. This place is not safe for saving."
+    - "You sense a looming threat. It's best to keep moving."
+    - "You feel a sense of danger. It's not safe to save your game here."

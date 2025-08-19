@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -O2 \
 	`pkg-config --cflags sdl2 SDL2_image SDL2_ttf SDL2_mixer jansson`
 LDFLAGS = `pkg-config --libs sdl2 SDL2_image SDL2_ttf SDL2_mixer jansson` -lyaml
 
-SRC := $(shell find src -name '*.c')
+SRC := src.c
 OBJ := $(SRC:.c=.o)
 TARGET := opt_game
 
