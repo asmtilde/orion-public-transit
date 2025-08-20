@@ -1,22 +1,17 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -O2 \
-	`pkg-config --cflags sdl2 SDL2_image SDL2_ttf SDL2_mixer jansson`
-LDFLAGS = `pkg-config --libs sdl2 SDL2_image SDL2_ttf SDL2_mixer jansson` -lyaml
+CXX = g++
+CXXFLAGS = -Wall -Wextra -O2 \
+	$(shell pkg-config --cflags sdl2 SDL2_image SDL2_ttf SDL2_mixer jansson)
+LDFLAGS = $(shell pkg-config --libs sdl2 SDL2_image SDL2_ttf SDL2_mixer jansson) -lyaml
 
-SRC := src.c
-OBJ := $(SRC:.c=.o)
-TARGET := opt_game
+SRC = src.cpp
+TARGET = opt_game
 
 all: $(TARGET)
 
-$(TARGET): $(OBJ)
-	$(CC) $(OBJ) -o $@ $(LDFLAGS)
-
-%.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
+$(TARGET): $(SRC)
+	$(CXX) $(CXXFLAGS) $< -o $@ $(LDFLAGS)
 
 clean:
-	rm -f $(TARGET)
-	find src -name '*.o' -delete
+	rm -f $(TARGET) src.o
 
 .PHONY: all clean

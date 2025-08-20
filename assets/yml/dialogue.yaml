@@ -1,8 +1,56 @@
-# dialogue.yaml
-# holds all dialogue in the game
-# crazy file size
+cutscene_introduction_hospital_1:
+  - "A sterile, quiet hospital lobby."
+  - "The walls are a pale off-white, tinged with the sickly hue of artificial lighting."
+  - "The air hums faintly with the drone of fluorescent lights."
+  - "Near the exit stands a stern woman in scrub. Her name tag reads 'Nurse Carter"
+cutscene_introduction_hospital_2:
+  - "You approach Nurse Carter, who looks up from her clipboard."
+  - "She gives you a curt nod, her expression unreadable."
+  - "Nurse Carter's eyes scan you briefly before she returns to her notes."
+  - "You sense a no-nonsense attitude from her, but there's a hint of concern in her gaze."
+cutscene_introduction_hospital_carter_dialogue_1:
+  - "Alright."
+  - "Your discharge is official. Dr. Arasaka signed off with a note."
+  - "'Take it easy.'"
+cutscene_introduction_hospital_3:
+  - "She looks at you sternly, but with a hint of warmth."
+  - "Nurse Carter's expression softens slightly as she speaks."
+cutscene_introduction_hospital_carter_dialogue_2:
+  - "We don't want another incident."
+  - "So take care of yourself, alright?"
+cutscene_introduction_hospital_4:
+  - "You nod, silent, stoic."
+  - "Eyes fixed on the glass double doors, the boundary between one world and the next."
+  - "Nurse Carter watches you for a moment longer, then softens up a little."
+cutscene_introduction_hospital_carter_dialogue_3:
+  - "A new city... Orion."
+  - "It's a blank slate, most people don't get that."
+  - "Remember what we practiced."
+  - "Your mind's a weapon, but it's also a maze."
+  - "Don't get lost in it."
+cutscene_introduction_hospital_5:
+  - "She hands you a clipboard, filled with forms and information."
+  - "A underline marks the most important details."
+  - "There's just one thing left to do."
+cutscene_introduction_hospital_carter_dialogue_4:
+  - "Sign here."
+  - "It's just a formality, but it feels like a final step."
+cutscene_introduction_hospital_6:
+  - "You take the clipboard, your fingers brushing against the paper."
+  - "The pen feels heavy in your hand, a weight of responsibility."
+  - "You sign your name, a final act of closure."
+cutscene_introduction_hospital_carter_dialogue_5:
+  - "Good."
+  - "You're free to go."
+cutscene_introduction_hospital_7:
+  - "Nurse Carter steps back, allowing you to leave."
+  - "You take a deep breath, the air outside feels different."
+  - "The world beyond the hospital doors awaits, a new beginning."
+cutscene_introduction_exiting_hospital:
+  - "Car Horns."
+  - "Street Clatter."
+  - "The city of Orion is alive, bustling with energy."
 
-# dice rolling, randomly selected lines with {result} as the result of the die
 roll_dice:
   - "The die spins, finally settling on a {result}."
   - "You roll a die, and it lands on {result}!"
@@ -22,28 +70,30 @@ roll_dice:
   - "You roll the die like a pro, and it lands on {result}."
   - "You don't remember rolling the die, but it shows {result}."
 
-save_game:
-  area_dangerous:
-    - "You feel a chill run down your spine. It fills you with dread."
-    - "As you looka round, you feel a sense of unease. Something is not right here."
-    - "You feel a sense of foreboding. This place is dangerous."
-    - "You sense danger lurking in the shadows. Proceed with caution."
-    - "You feel a dark presence nearby. It's best to leave this place."
-  area_safe:
-    - "You feel a sense of calm wash over you. This place is safe."
-    - "You feel at ease here. It's a safe place to rest."
-    - "You sense no danger here. It's a good place to save your progress."
-    - "You feel secure in this area. It's safe to take a break."
-    - "This place feels peaceful. You can save your game here."
-  area_unknown:
-    - "You feel a sense of uncertainty. This place is unfamiliar."
-    - "You sense something strange about this area. It's hard to tell if it's safe."
-    - "You feel a mix of curiosity and caution. This area is unknown."
-    - "You sense a mystery here. It's hard to say if it's safe or dangerous."
-    - "You feel a sense of adventure. This area is unexplored."
-  area_no_save:
-    - "You feel a sense of urgency. There's no time to save your game here."
-    - "You sense danger nearby. It's not safe to save your progress."
-    - "You feel a sense of dread. This place is not safe for saving."
-    - "You sense a looming threat. It's best to keep moving."
-    - "You feel a sense of danger. It's not safe to save your game here."
+# EMOTIONS
+tears:
+  - "You feel a tear roll down your cheek."
+  - "You can't help but shed a tear."
+  - "A tear escapes your eye, a sign of your emotions."
+  - "You wipe away a tear, trying to regain your composure."
+  - "A single tear falls, a testament to your feelings."
+  - "You feel a lump in your throat as tears well up in your eyes."
+  - "Tears well up in your eyes, blurring your vision."
+  - "You blink back tears, trying to hold them back."
+  - "You feel a wave of emotion, and tears begin to form."
+  - "You can't hold back the tears any longer."
+  - "Tears stream down your face, a release of pent-up emotions."
+  - "You feel a surge of sadness, and tears begin to flow."
+  - "You try to hold back the tears, but they come anyway."
+  - "You feel a tear escape, a sign of your vulnerability."
+  - "You feel a tear fall, a sign of your emotional state."
+tears_eric:
+  - "Eric wipes a tear from his eye, trying to regain his composure."
+  - "Eric sheds a tear, unable to hold back his emotions."
+  - "A single tear rolls down Eric's cheek, a sign of his feelings."
+  - "Eric feels a lump in his throat as tears well up in his eyes."
+  - "Tears blur Eric's vision as he tries to hold back his emotions."
+  - "Eric can't help but shed a tear, overwhelmed by the moment."
+  - "A tear escapes Eric's eye, a testament to his vulnerability."
+  - "Eric wipes away a tear, trying to stay strong."
+  - "Tears stream down Eric's face, a release of pent-up emotions."

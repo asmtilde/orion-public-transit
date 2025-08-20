@@ -1,0 +1,5 @@
+npc:
+  - id: 0
+    name: "Mr. Ogden [Orion University]"
+    inspect: "Overworked computer science teacher. He seems to have a soft spot for his students."
+    sprite_path: "assets/sprites/npc/mr_ogden.png"
