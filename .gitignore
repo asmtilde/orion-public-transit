@@ -1,11 +1,7 @@
-opt_game
-build
-dist
-bin
-
 .vscode/
 
-*.wav
+optgame
+opt.dat
 
 # Prerequisites
 *.d
