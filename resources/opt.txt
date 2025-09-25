@@ -1,0 +1,25 @@
+WHAT IS THIS FILE?
+
+Anyway, this is the jumbled mess of whatever my brain thought was important to jot down during the ENTIRE development
+of Orion Public Transit. It is not organized, it is not complete, and it is not guaranteed to be correct.
+It is simply a collection of notes that I have taken over the years, and I am putting it here in case anyone snooping
+around in the files wants to see what I was thinking about at the time.
+
+WHAT IS ORION PUBLIC TRANSIT?
+
+How the absolute fuck did you get here? Like actually are you fucking stupid or some kind of idiot? Anyway, Orion
+Public Transit is a RPG game about board games. Go play it. NOW. 
+
+Without further ado, a showcase of whatever the fuck I was thinking about.
+
+==================================================
+                       __  .__.__       .___      
+_____    ______ ______/  |_|__|  |    __| _/____  
+\__  \  /  ___//     \   __\  |  |   / __ |/ __ \ 
+ / __ \_\___ \|  Y Y  \  | |  |  |__/ /_/ \  ___/ 
+(____  /____  >__|_|  /__| |__|____/\____ |\___  >
+     \/     \/      \/                   \/    \/ 
+==================================================
+
+load game from main.c file that runs a engine.c file that loads the lua environment with the built in functions that we created
+IMPORTANT: delete key closes the game NO MATTER WHAT (dont abuse)   

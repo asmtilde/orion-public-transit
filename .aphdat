@@ -1,0 +1,11 @@
+title = Orion Public Transit
+author = Jack Spencer
+api_version = alpha6
+width = 1280
+height = 960
+fps = 60
+script = resources/lua/main.lua
+exit_key = DELETE
+fullscreen = false
+resizable = false
+vsync = true

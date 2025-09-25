@@ -1,28 +1,19 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -std=c99
-LIBS = -lraylib -llua -lm
+TARGET = aphelion
+SOURCE = Aphelion.c
 
-TARGET = optgame
-SOURCES = src/main.c src/engine.c
+CC = gcc
+CFLAGS = -std=c99 -Wall -Wextra -O2
+LIBS = -lraylib -llua -lm -ldl -lpthread
 
 all: $(TARGET)
 
-$(TARGET): $(SOURCES)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCES) $(LIBS)
+$(TARGET): $(SOURCE)
+	$(CC) $(CFLAGS) $(SOURCE) -o $(TARGET) $(LIBS)
+
+debug: CFLAGS += -g -DDEBUG -O0
+debug: $(TARGET)
 
 clean:
 	rm -f $(TARGET)
 
-install-deps-ubuntu:
-	sudo apt-get install libraylib-dev liblua5.4-dev
-
-install-deps-arch:
-	sudo pacman -S raylib lua
-
-install-deps-macos:
-	brew install raylib lua
-
-run: $(TARGET)
-	./$(TARGET)
-
-.PHONY: all clean install-deps-ubuntu install-deps-arch install-deps-macos run
+.PHONY: all debug clean install uninstall run

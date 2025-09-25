@@ -1,28 +1,19 @@
 Orion Public Transit
 =====================
 
-After joining Greater Orion University's Occcult & Alchemy Research Club,
-Aleph finds are world between ours and the next, a limbo of sorts where
-society's outcasts and lost souls gather, and make people's darkness,
-desires, regrets, fears, and mental struggles manifest into physical forms.
-
-Play as Aleph as you assemble a team of allies, and attempt to navigate
-the oh so infinite labyrinth of Abaddon, and a twisted version of the city
-of Orion, and it's unique public transit system, to find out the truth
-behind the mysterious Echoes the party wields, the nature of Alchemy and it's 
-tie to the mortal realm, and the truth about death, destruction, and rebirth.
-
 Library Creditation
 =====================
 
 This software uses raylib (https://www.raylib.com/), 
 Copyright (c) 2013-2025 Ramon Santamaria (@raysan5).
 
-Song Samples
+This software uses Lua (https://www.lua.org/),
+Copyright (c) 1994-2025 Lua.org, PUC-Rio.
+
+Audio Creditation
 =====================
+"Amen, Brother" by The Winstons (1969)
+Amen break sampled in many, many songs.
 
-Transit Home [ asmtilde ]
-- "Virtual Insanity" by Jamiroquai
-
-Hydra of a Hundred Realms [ asmtilde ]
-- "3... 2... 1... Go!" from Super Smash Brothers Ultimate
+"Virtual Insanity" by Jamiroquai (1996)
+Used in "slumfunk"
