@@ -1,0 +1,11 @@
+0 - game_state: Integer to set the game state to
+1 - accept_input: Integer to set whether input is accepted. 0 = no, 1 = yes\
+2 - request_quit: Integer to request the game to quit. 0 = no, 1 = yes
+
+Debug options, these are only in development builds:
+3 - DEBUG_callsave: Integer to request a debug save. 0 = no, 1 = yes
+4 - DEBUG_callload: Integer to request a debug load. 0 = no, 1 = yes
+5 - DEBUG_callreset: Integer to request a debug reset. 0 = no, 1 = yes
+6 - DEBUG_callcrash: Integer to request a debug crash. 0 = no, 1 = yes
+
+7 - player_name: Hashed string to set the player's name to

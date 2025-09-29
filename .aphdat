@@ -1,6 +1,6 @@
 title = Orion Public Transit
 author = Jack Spencer
-api_version = alpha6
+api_version = alpha7
 width = 1280
 height = 960
 fps = 60

@@ -1,0 +1,22 @@
+load game from main.c file that runs a engine.c file that loads the lua environment with the built in functions that we created
+IMPORTANT: delete key closes the game NO MATTER WHAT (dont abuse)
+aphelion custom .aphdat file loading later? maybe like a full platform or something that the player can use to make their own games
+[ get OPT done first though don't get distracted ]
+
+item game information
+basically in all items there is a item.game integer
+this integer is the game that the item belongs to, and is a unique identifier for the game
+all games in the future will have a unique identifier, so that items can be tracked to their respective games 
+the item.game integer will be in use in this game, but wont be used until later games, when [eventually]
+we have the ability to transfer certain things between games, such as items, money, etc.
+
+anyway here are the current game identifiers:
+32105154 - CubeDood in 'The Memory Snatcher' : there are no items in this game
+
+hmmmmmmmm heres a new one
+make a fully working dialogue system with a custom file format that is easy to read and write, then make a quick editor for it Aphelion
+that can export to the custom file format
+
+:3
+
+~ give aphelion eventual python support (maybe, i like lua)
