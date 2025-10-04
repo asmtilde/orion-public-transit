@@ -1,0 +1,24 @@
+@ attack element types
+Physical - Swords, Axes
+Ranged - Bows, Crossbows
+
+Fire - Strong against Ice
+Ice - Strong against Wind
+Wind - Strong against Fire
+
+Earth - Strong against Lightning
+Lightning - Strong against Water
+Water - Strong against Earth
+
+Holy - unblockable, usually has positive effects
+Sin - unblockable, usually has a really powerful effect but at a cost
+Mortal - ignores all buffs & debuffs, always crits, ignores type advantages
+
+@ attack attack type
+Slash - balanced moderate
+Pierce - high single target
+Blunt - low multi target
+Crush - high slow 
+Magic - elemental
+Support - buffs & debuffs
+Status - inflicts status effects

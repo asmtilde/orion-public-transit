@@ -1,0 +1,21 @@
+~~ Position Abilities ~~
+Zephyr ~ This characters can move 2 additional spaces during their turn.
+Phantom ~ During your turn, you may pay 10% of this character's max mana to swap places with any entity on the field.
+Titan ~ When moving, this character may move through other entities without stopping.
+Vortext ~ This character can move diagonally as if it were orthogonal movement.
+Blink ~ This character may teleport to any unoccupied space within 3 spaces of their current position
+
+~~ Unique Character Abilities ~~ (unlocked via story progression, can only be used by specific characters)
+Aleph's Stasis ~ At the start of this character's turn, they may choose to skip their turn to remove all negative status effects from a single ally.
+Eric's Asphalt ~ When this character takes damage, they have a 20% chance to reflect 50% of that damage back to the attacker. (Besides unblockables)
+Paul's Defiance ~ Once per battle, when this character's health drops below 30%, all party members heal 20% of their max health and gain 20% of their max mana.
+Mizuki's Obsession ~ Whenever Mizuki damages a enemy, there is a 15% chance they will be marked as "Obsessed". Obsessed enemies take 25% more damage from all sources for a single turn.
+Doroki's Thirst ~ Whenever Doroki deals damage equal to or greater than 15% of his max health in a single attack, he restores 10% of his max health. If the enemy was below 30% health, the enemy is insta-killed instead.
+Caesar's Dominion ~ At the start of battle, all allies within 3 spaces of Caesar gain 10% attack and 10% defense while he remains on the field. However, if Caesar is the last ally alive, his stats increase by 25%.
+~~ Caesar is a special case as he has a ability for his boss fight when he betrays the party ~~
+Caesar's Tyranny ~ All enemies within 3 spaces of Caesar suffer -15% attack and -15% defense while he remains on the field. However, if Caesar is the last enemy alive, his stats increase by 50%.
+
+
+~~ Effect Abilities ~~
+Regenerate ~ At the start of this character's turn, they heal 5% of their max health.
+Mana Surge ~ At the start of this character's turn, they restore 5% of their max mana.

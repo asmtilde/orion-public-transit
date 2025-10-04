@@ -1,0 +1,38 @@
+@ check unobtainable 
+check_unobtainable = You check the item... you shouldn't have this.
+check_debug = You check the item... you shouldn't have this.
+@ check event items
+check_
+
+@ class tarot check
+class_tarot_check = Your class tarot card glows briefly.
+class_tarot_check_warrior = VII ~ The Chariot ~ The Warrior inside you rages to break free!
+class_tarot_check_paladin = V ~ The Hierophant ~ The Paladin inside you seeks to protect and serve!
+class_tarot_check_barbarian = XI ~ Strength ~ The Barbarian inside you yearns to unleash its fury!
+class_tarot_check_mage = I ~ The Magician ~ The Mage inside you is ready to wield arcane power!
+class_tarot_check_illusionist = XVIII ~ The Moon ~ The Illusionist inside you thrives in mystery and deception!
+class_tarot_check_necromancer = XIII ~ Death ~ The Necromancer inside you commands the forces of life and death!
+class_tarot_check_rogue = 0 ~ The Fool ~ The Rogue inside you is ready for adventure and cunning plans!
+class_tarot_check_assassin = XV ~ The Devil ~ The Assassin inside you embraces the shadows and strikes unseen!
+class_tarot_check_bard = VI ~ The Lovers ~ The Bard inside you weaves tales of passion and harmony!
+class_tarot_check_cleric = II ~ The High Priestess ~ The Cleric inside you channels divine wisdom and healing!
+class_tarot_check_druid = III ~ The Empress ~ The Druid inside you nurtures nature and life!
+class_tarot_check_oracle = XVII ~ The Star ~ The Oracle inside you shines with hope and prophecy!
+@ optional class tarot check
+class_tarot_check_walker = XXI ~ The World ~ The Walker inside you masters all paths and journeys!
+class_tarot_check_harbinger = XX ~ Judgment ~ The Harbinger inside you heralds change and transformation!
+class_tarot_check_jester = XVI ~ The Tower ~ The Jester inside you thrives on misery and upheaval!
+class_tarot_check_sage = IX ~ The Hermit ~ The Sage inside you seeks knowledge and enlightenment!
+class_tarot_check_sorcerer = XIV ~ The Temperance ~ The Sorcerer inside you balances power and wisdom!
+@ swords collector check
+swords_collector_5 = You have collected 5% of the swords!
+swords_collector_10 = Wow! You certainly have an eye for swords! 10% collected is impressive!
+swords_collector_25 = A quarter of the swords! You must be a true sword enthusiast!
+swords_collector_50 = Halfway there! 50% of the swords collected
+swords_collector_75 = 75% of the swords! You're getting close to completing your collection!
+swords_collector_90 = 90% of the swords! Just a few more to go!
+swords_collector_100 = Incredible! You've collected all the swords! You're a true swords collector!
+@ party members check
+party_check_aleph = You checked yourself... you are Aleph, the leader of the group.
+party_check_eric = You checked Eric... best friend, loyal companion, edgy rebel.
+party_check_paul = You checked Paul... the strong, paladin-hearted protector of the group.

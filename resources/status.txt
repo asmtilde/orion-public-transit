@@ -1,0 +1,11 @@
+Orion Public Transit RPG effects:
+
+Toxin ~ Take toxic damage for 3 turns.
+
+-- Buffs & Debuffs --
+Quake ~ Lowers magic for 3 turns.
+Brittle ~ Lowers attack for 3 turns.
+Nausea ~ Lowers speed for 3 turns.
+Blind ~ Lowers defense for 3 turns.
+
+Locked In ~ Increases attack and defense for 3 turns.

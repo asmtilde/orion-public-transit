@@ -1,0 +1,5 @@
+Rusted Scrapper Common +2 physical
+Iron Broadsword Common Balanced stats
+Traveler's Blade Common Mana regen
+River Cutter Common +echo damage
+Hunter's Fang Common +2 crit

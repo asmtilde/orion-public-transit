@@ -1,0 +1,50 @@
+battles in Orion Public Transit
+
+opt has rpg battles, and ours is a unique mix of a couple:
+
+Of course turn based combat, like classic Final Fantasy,
+but theres also a full grid movement system, and each
+party member has to manage their own movement, range,
+and positioning.
+
+Each battle grid is by default 32x32, but can be
+customized to be larger or smaller (for battles)
+
+Each party member has a movement stat, and a set
+of actions they can take.
+
+There is no limit to how many moves a party member
+can have, however they are limited to one action
+per turn.
+
+An example of this displayed in game would be:
+
+[ ALEPH ] "I'm ready to fight~!"
+Move <--
+Fight
+Block
+Item
+Wait
+
+---
+
+The movement stat determines how many squares a party
+member can move in a single turn, or if they can also
+move diagonally. (this can be given to each party member
+by equipping a ability, but this takes up your single 
+ability slot)
+
+Talking about abilities, each party member has access
+to a single ability slot, which can be filled with any
+ability in the game, that is compatible with them.
+
+By discovering a new ability in game, for example by
+purchasing a book that teaches the ability, or something
+else, you can then equip it globally to any party member.
+Even two party members can equip the same ability.
+
+Abilties can be passive, a new attack, or something else.
+Some ability examples are:
+
+Vortex ~ This character can move diagonally without the square penalty.
+Moneymad ~ All money gained from battles is increased by 20%.
